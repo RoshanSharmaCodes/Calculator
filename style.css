@@ -1,7 +1,15 @@
+body{
+    background-color: #e6e6e6;
+}
+
 .container {
     max-width: 400px;
     margin: 10vh auto 0 auto;
-    box-shadow: 0px 0px 15px 10px rgba(153,153,153,1);
+    box-shadow: 0px 0px 15px 10px rgb(219, 219, 219);
+    border: 2px solid #00ceed;
+    font-family: sans-serif;
+    color: white;
+    font-size: 30px;
 }
 
 #display {
@@ -9,6 +17,10 @@
     height: 70px;
     padding: 16px 8px;
     font-size: 25px;
+    font-family: sans-serif;
+    border: #323330;
+    background-color: white;
+    color:black;
 }
 
 .buttons {
@@ -16,15 +28,17 @@
     border-bottom: 1px solid #999;
     border-left: 1px solid#999;
     grid-template-columns: 1fr 1fr 1fr 1fr;
+    background-color: #00ceed;
 }
 
 .buttons{
     border-top: 1px solid #999;
     border-right: 1px solid#999;
+    
 }
 
 .button {
-    border: 0.5px solid #999;
+    border: 0.5px solid #ffffff;
     line-height: 100px;
     text-align: center;
 }
